@@ -1,0 +1,5 @@
+#personagem {
+    width: 150px;  /* O tamanho que você quiser */
+    height: 150px;
+    object-fit: contain; /* Para a imagem não distorcer */
+}
