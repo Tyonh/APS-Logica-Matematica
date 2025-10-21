@@ -1,17 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Batalha de Lógica</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <img id="monster" src="imagens/monster.png" alt="">
-    <img id="personagem" src="imagens/parado.png" alt="Personagem">
 
-    <button id="botao-atacar">Atacar!</button>
-    <div id="log-combate"></div>
+    <div id="cena-batalha">
+        <img id="monster" src="imagens/monster.png" alt="Monstro">
+        <img id="personagem" src="imagens/parado.png" alt="Personagem">
+    </div>
+
+    <div id="controles">
+        <button id="botao-atacar">Atacar!</button>
+        <div id="log-combate">Aguardando ação...</div>
+    </div>
+    
     <script src="config.js"></script>
 </body>
 </html>

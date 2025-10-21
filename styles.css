@@ -1,12 +1,61 @@
-#personagem {
-    width: 60px;  
-    height: 60px;
-  
-    margin-left: -45px;
+/* --- Configuração Geral da Página --- */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0; 
+    background-color: #222;
+    font-family: sans-serif;
 }
 
-#monster{
-   width: 200px;  
-    height: 200px; 
-    
+#cena-batalha {
+    display: flex;
+    align-items: flex-end; 
+    gap: 30px; 
+    margin-bottom: 25px; 
+}
+
+#controles {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 15px; 
+}
+
+#personagem {
+    width: 60px;
+    height: auto; 
+    margin-left: -65px;
+}
+
+#monster {
+    width: 200px;
+    height: 200px;
+}
+
+
+#botao-atacar {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #c00;
+    color: white;
+}
+
+#botao-atacar:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
+#log-combate {
+    font-family: monospace; 
+    font-size: 1.1em;
+    color: #ffc; 
+    min-height: 1.2em; 
+    text-align: center;
 }
