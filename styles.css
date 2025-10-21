@@ -1,5 +1,12 @@
 #personagem {
-    width: 150px;  /* O tamanho que você quiser */
-    height: 150px;
-    object-fit: contain; /* Para a imagem não distorcer */
+    width: 60px;  
+    height: 60px;
+  
+    margin-left: -45px;
+}
+
+#monster{
+   width: 200px;  
+    height: 200px; 
+    
 }
